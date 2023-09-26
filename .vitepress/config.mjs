@@ -43,16 +43,15 @@ export default defineConfig({
       { icon: 'twitter', link: 'https://x.com/sarcophagusio' },
       { icon: 'discord', link: 'https://discord.gg/sarcophagus-community-753398645507883099' }
     ],
+    sidebar: [],
+    lastUpdated: true,
     footer: {
       text: 'This is a permapage.'
     },
-    editLink: true,
-    sidebar: [
-      {
-        items: [
-          { text: 'Let&#39;s get Started', link: '/guide/' }
-        ]
-      }
-    ]
+    prev: false,
+    next: false,
+    editLink: {
+      pattern: 'https://github.com/Megumiiiiii/quickstart-sarco/edit/main/docs/:path'
+    }
   }
 })
