@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "vitepress": "^1.0.0-rc.20",
+    "@bundlr-network/client": "^0.11.17",
+    "arweave": "^1.14.4",
+    "fs": "^0.0.1-security",
+    "warp-contracts": "^1.4.18"
+  },
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  }
+}
